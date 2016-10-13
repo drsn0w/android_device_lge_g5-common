@@ -47,7 +47,7 @@ persist.data.mode=concurrent
 
 # Display
 ro.qualcomm.cabl=0
-ro.sf.lcd_density=640
+ro.sf.lcd_density=600
 
 # Fluence
 ro.qc.sdk.audio.fluencetype=fluence
@@ -116,6 +116,9 @@ persist.sensors.onhand.en=0
 
 # Time services
 persist.timed.enable=true
+
+# NFC
+ro.nfc.port=I2C
 
 # WiFi
 wifi.interface=wlan0
