@@ -22,8 +22,6 @@ lib/libmorpho_superzoom.so
 lib/libqomx_core.so
 lib/libVDBase.so
 lib/libVDLowLightAPI.so
-vendor/lib/libchromaflash.so
-vendor/lib/liboptizoom.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
@@ -54,7 +52,6 @@ vendor/lib/libmmcamera_eeprom_util.so
 vendor/lib/libmmcamera_eztune_module.so
 vendor/lib/libmmcamera_faceproc.so
 vendor/lib/libmmcamera_hdr_gb_lib.so
-vendor/lib/libmmcamera_chromaflash_lib.so
 vendor/lib/libmmcamera_hvx_add_constant.so
 vendor/lib/libmmcamera_hvx_grid_sum.so
 vendor/lib/libmmcamera_hvx_zzHDR.so
@@ -114,7 +111,6 @@ vendor/lib/libmmcamera_tintless_algo.so
 vendor/lib/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib/libmmcamera_tuning.so
 vendor/lib/libmmcamera_tuning_lookup.so
-vendor/lib/libmmcamera_optizoom_lib.so
 vendor/lib/libmmcamera_vpu_module.so
 vendor/lib/libmmjpeg.so
 vendor/lib/libmmqjpeg_codec.so
@@ -131,10 +127,6 @@ vendor/lib64/libmmcamera_dbg.so
 vendor/lib64/libmmcamera_tintless_algo.so
 vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib64/libscalar.so
-
-# Camera / DSP - Hexagon libraries
-lib/rfsa/adsp/libmorpho_image_stabilizer4_hvx_skel.so
-lib/rfsa/adsp/libmorpho_video_denoiser_hvx_skel.so
 
 # Camera actuators
 vendor/lib/libactuator_ad5816g.so
