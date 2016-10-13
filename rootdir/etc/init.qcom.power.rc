@@ -115,6 +115,12 @@ on enable-low-power
     write /proc/sys/kernel/sched_init_task_load 65
     write /proc/sys/kernel/sched_upmigrate_min_nice 12
 
+    # Configure foreground and background cpuset
+    write /dev/cpuset/foreground/cpus 0-7
+    write /dev/cpuset/foreground/boost/cpus 4-7
+    write /dev/cpuset/background/cpus 0
+    write /dev/cpuset/system-background/cpus 0-3
+
     # Enable bus-dcvs
     write /sys/class/devfreq/soc:qcom,cpubw/governor "bw_hwmon"
     write /sys/class/devfreq/soc:qcom,cpubw/polling_interval 50
