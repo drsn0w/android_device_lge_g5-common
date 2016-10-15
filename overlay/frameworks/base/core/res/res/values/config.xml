@@ -298,7 +298,7 @@
 
     <!-- If true, the doze component is not started until after the screen has been
          turned off and the screen off animation has been performed. -->
-    <bool name="config_dozeAfterScreenOff">true</bool>
+    <bool name="config_dozeAfterScreenOff">false</bool>
 
     <!-- Power Management: Specifies whether to decouple the auto-suspend state of the
          device from the display on/off state.
@@ -348,7 +348,7 @@
     <bool name="config_enableAutoPowerModes">true</bool>
 
     <!-- Whether device supports double tap to wake -->
-    <bool name="config_supportDoubleTapWake">true</bool>
+    <bool name="config_supportDoubleTapWake">false</bool>
 
     <!-- Config determines whether to update phone object when voice registration
          state changes. Voice radio tech change will always trigger an update of
@@ -369,5 +369,5 @@
     <string name="config_fusedLocationProviderPackageName" translatable="false">com.qualcomm.location</string>
 
     <!-- Enable blur support -->
-    <bool name="config_ui_blur_enabled">true</bool>
+    <bool name="config_ui_blur_enabled">false</bool>
 </resources>
